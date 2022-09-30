@@ -20,6 +20,7 @@
   position: relative;
   border: 1px solid gray;
 
+
   /* выше установили ограничения для секции */
 }
 /* ниже задана разметка для логотипа в шапке */
@@ -75,11 +76,14 @@
   width: 568px;
   background: #2f80ed;
 }
+/* ниже задана разметка для секции description */
 .description{
   margin-top: 100px;
   margin-bottom: 100px;
   border: 1px solid gray;
+  margin-right: 0;
 }
+/* ниже задана разметка для блока two-columns*/
 .two-columns{
   margin-left: auto;
   margin-right: auto;
@@ -87,6 +91,7 @@
   justify-content: space-between;
   width: 80%;
 }
+/* ниже задана разметка для заголовка h2 */
 .two-columns__brief{
   margin: 0;
   width: 175px;
@@ -95,25 +100,79 @@
   font-weight: normal;
   color: #2F80ED;
 }
+/* ниже задана разметка для блока main-text */
 .two-columns__main-text{
   min-width: 784px;
   min-height: 200px;
   width: 80%;
 }
+/* ниже задана разметка для текста внутри блока paragraph */
 .two-columns__paragraph{
   margin: 0;
 line-height: 34px;
 font-size: 24px;
 font-weight: normal;
 }
+/* ниже задана разметка для отступов текста внутри текста блока paragraph*/
 .paragraph{
 margin-top: 30px;
 margin-bottom: 30px;
 }
+/* ниже задана разметка для слова "Вывод:"*/
 .two-columns__span-accent{
 line-height: 34px;
 font-size: 24px;
 font-weight: 600;
+}
+/* ниже задана разметка для секции digits */
+.digits{
+  margin-top: 100px;
+  margin-bottom: 100px;
+  border: 1px solid gray;
+
+}
+.section-title{
+  width: 60%;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  line-height: 1.15;
+  font-size: 60px;
+  font-weight: 600;
+}
+.section-subtitle{
+  display: flex;
+  justify-content: center;
+  margin-left: auto;
+  margin-right: auto;
+  width: 60%;
+  line-height: 34px;
+  font-size: 24px;
+  font-weight: normal;
+}
+.table{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  width: 1100px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.table__cell{
+  width: 250px;
+  margin-bottom: 60px;
+}
+.table__heading{
+  line-height: 1.15;
+  font-size: 24px;
+  font-weight: 600;
+}
+.table__text{
+  line-height: 1.2;
+  font-size: 18px;
+  font-weight: normal;
 }
 
 /* и элемента с модификатором вида ключ-значение */
