@@ -115,7 +115,8 @@
   width: 80%;
 }
 
-p:last-child {
+/*Ниже задан псевдокласс от селектора по классу*/
+.two-columns__paragraph:last-child {
   margin-bottom: 0px;
 }
 
