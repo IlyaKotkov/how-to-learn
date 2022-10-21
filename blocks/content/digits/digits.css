@@ -1,0 +1,12 @@
+@import url(../digits/section-subtitle.css);
+@import url(../digits/section-title.css);
+@import url(../digits/table/__cell/table__cell.css);
+@import url(../digits/table/__heading/table__heading.css);
+@import url(../digits/table/__text/table__text.css);
+@import url(../digits/table/table.css);
+
+.digits {
+  position: relative;
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
